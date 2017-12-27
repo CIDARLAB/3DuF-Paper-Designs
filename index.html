@@ -95,7 +95,7 @@
                     <h3>Quake Droplet Generator</h3>
                     <p class="lead">Reference: </p>
                     <h4>Dynamic Pattern Formation in a Vesicle-Generating Microfluidic Device</h4>
-                    <a href="./device1.html" target="blank" class="btn btn-primary btn-lg">View in 3DuF</a>
+                    <a onclick="openQuake()" class="3duf btn btn-primary btn-lg">View in 3DuF</a>
                     <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.86.4163" target="blank" class="btn btn-primary btn-lg">View Paper</a>
                 </div>
             </div>
@@ -107,7 +107,7 @@
                     <h3>Kobayashi Hydrogenation</h3>
                     <p class="lead">Reference: </p>
                     <h4>A Microfluidic Device for Conducting Gas-Liquid-Solid Hydrogenation Reactions</h4>
-                    <a href="./device1.html" target="blank" class="btn btn-primary btn-lg">View in 3DuF</a>
+                    <a onclick="openHydrogenation()" target="blank" class="btn btn-primary btn-lg">View in 3DuF</a>
                     <a href="http://science.sciencemag.org/content/304/5675/1305" target="blank" class="btn btn-primary btn-lg">View Paper</a>
                 </div>
             </div>
@@ -119,7 +119,7 @@
                     <h3>Nozzle Droplet Generator</h3>
                     <p class="lead">Reference: </p>
                     <h4>Numerical Study of Droplet Generation Process in a Microfluidic Flow Focusing</h4>
-                    <a href="./device1.html" target="blank" class="btn btn-primary btn-lg">View in 3DuF</a>
+                    <a onclick="openNozzle()" target="blank" class="btn btn-primary btn-lg">View in 3DuF</a>
                     <a href="https://journals.ut.ac.ir/article_55101.html" target="blank" class="btn btn-primary btn-lg">View Paper</a>
                 </div>
             </div>
@@ -131,7 +131,7 @@
                     <h3>Daridon Single Cell </h3>
                     <p class="lead">Reference: </p>
                     <h4>Long-Term Monitoring of Bacteria Undergoing Programmed Population Control in a Microchemostat</h4>
-                    <a href="./device1.html" target="blank" class="btn btn-primary btn-lg">View in 3DuF</a>
+                    <a onclick="openDaridon()" target="blank" class="btn btn-primary btn-lg">View in 3DuF</a>
                     <a href="http://science.sciencemag.org/content/309/5731/137" target="blank" class="btn btn-primary btn-lg">View Paper</a>
                 </div>
             </div>
@@ -143,7 +143,7 @@
                     <h3>Dynamic Signalling</h3>
                     <p class="lead">Reference: </p>
                     <h4>Diverse Sensitivity Thresholds in Dynamic Signaling Responses by Social Amoebae</h4>
-                    <a href="./device1.html" target="blank" class="btn btn-primary btn-lg">View in 3DuF</a>
+                    <a onclick="openSignalling()" target="blank" class="btn btn-primary btn-lg">View in 3DuF</a>
                     <a href="http://stke.sciencemag.org/content/5/213/ra17" target="blank" class="btn btn-primary btn-lg">View Paper</a>
                 </div>
             </div>
@@ -155,7 +155,7 @@
                     <h3>Microchemostat Unit</h3>
                     <p class="lead">Reference: </p>
                     <h4>Microfluidic Device for Single-Cell Analysis</h4>
-                    <a href="./device1.html" target="blank" class="btn btn-primary btn-lg">View in 3DuF</a>
+                    <a onclick="openChemostat()" target="blank" class="btn btn-primary btn-lg">View in 3DuF</a>
                     <a href="http://dx.doi.org/10.1021/ac0340758" target="blank" class="btn btn-primary btn-lg">View Paper</a>
                 </div>
             </div>
@@ -167,7 +167,7 @@
                     <h3>Kinase Radioassay</h3>
                     <p class="lead">Reference: </p>
                     <h4>Integrated Microfluidic and Imaging Platform for a Kinase Activity Radioassay to Analyze Minute Patient Cancer Samples</h4>
-                    <a href="./device1.html" target="blank" class="btn btn-primary btn-lg">View in 3DuF</a>
+                    <a onclick="openKinase()" target="blank" class="btn btn-primary btn-lg">View in 3DuF</a>
                     <a href="http://cancerres.aacrjournals.org/content/70/21/8299" target="blank" class="btn btn-primary btn-lg">View Paper</a>
                 </div>
             </div>
@@ -179,7 +179,7 @@
                     <h3>Cell-Microenvironment</h3>
                     <p class="lead">Reference: </p>
                     <h4>An integrated microfluidic system for studying cell-microenvironmental interactions versatilely and dynamically</h4>
-                    <a href="./device1.html" target="blank" class="btn btn-primary btn-lg">View in 3DuF</a>
+                    <a onclick="openMicroenv()" target="blank" class="btn btn-primary btn-lg">View in 3DuF</a>
                     <a href="http://pubs.rsc.org/en/content/articlelanding/2010/lc/c001049a" target="blank" class="btn btn-primary btn-lg">View Paper</a>
                 </div>
             </div>
@@ -191,7 +191,7 @@
                     <h3>Oligonucliotide Synthesis</h3>
                     <p class="lead">Reference: </p>
                     <h4>A microfluidic oligonucleotide synthesizer</h4>
-                    <a href="./device1.html" target="blank" class="btn btn-primary btn-lg">View in 3DuF</a>
+                    <a onclick="openOligo()" target="blank" class="btn btn-primary btn-lg">View in 3DuF</a>
                     <a href="https://doi.org/10.1093/nar/gkq092" target="blank" class="btn btn-primary btn-lg">View Paper</a>
                 </div>
             </div>
@@ -221,55 +221,49 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-4">
-                    <a href="./device1.html">
-                        <img src="./assets/img/lit/lit-1.png" class="btn btn-default" width="100%">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-2">
+                    <a onclick="openCellSorting()">
+                        <img src="./assets/img/mubb/mubb-1.png" class="btn btn-default" height="100%">
                     </a>
                 </div>
+                <div class="col-lg-1"></div>
                 <div class="col-lg-4">
-                    <a href="./device2.html">
-                        <img src="./assets/img/lit/lit-2.png" class="btn btn-default" width="100%">
+                    <div class="row">
+                        <a onclick="openDNADigestion()">
+                            <img src="./assets/img/mubb/mubb-3.png" class="btn btn-default" width="100%">
+                        </a>
+                    </div>
+                    <br/>
+                    <div class="row">
+                        <a onclick="openCellLigation()">
+                            <img src="./assets/img/mubb/mubb-4.png" class="btn btn-default" width="100%">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-2">
+                    <a onclick="openAntibioticResistance()">
+                        <img src="./assets/img/mubb/mubb-2.png" class="btn btn-default" height="100%">
                     </a>
                 </div>
-                <div class="col-lg-4">
-                    <a href="./device3.html">
-                        <img src="./assets/img/lit/lit-3.png" class="btn btn-default" width="100%">
-                    </a>
-                </div>
+
             </div>
             <br />
             <div class="row">
                 <div class="col-lg-4">
-                    <a href="./device4.html">
-                        <img src="./assets/img/lit/lit-4.png" class="btn btn-default" width="100%">
+                    <a onclick="openFlourescence()">
+                        <img src="./assets/img/mubb/mubb-5.png" class="btn btn-default" width="100%">
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="./device5.html">
-                        <img src="./assets/img/lit/lit-5.png" class="btn btn-default" width="100%">
+                    <a onclick="openCellLysis()">
+                        <img src="./assets/img/mubb/mubb-6.png" class="btn btn-default" width="100%">
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a href="./device6.html">
-                        <img src="./assets/img/lit/lit-6.png" class="btn btn-default" width="100%">
-                    </a>
-                </div>
-            </div>
-            <br />
-            <div class="row">
-                <div class="col-lg-4">
-                    <a href="./device7.html">
-                        <img src="./assets/img/lit/lit-7.png" class="btn btn-default" width="100%">
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="./device8.html">
-                        <img src="./assets/img/lit/lit-8.png" class="btn btn-default" width="100%">
-                    </a>
-                </div>
-                <div class="col-lg-4">
-                    <a href="./device9.html">
-                        <img src="./assets/img/lit/lit-9.png" class="btn btn-default" width="100%">
+                    <a onclick="openCellTransformation()">
+                        <img src="./assets/img/mubb/mubb-7.png" class="btn btn-default" width="100%">
                     </a>
                 </div>
             </div>
@@ -283,7 +277,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>3DuF was developed by CIDAR Lab</p>
+                    <p><a href="http://3duf.org">3DuF</a> was developed by <a href="https://cidarlab.org">CIDAR</a> Lab</p>
                     <ul class="list-unstyled">
                     </ul>
                     <p>Based on <a href="https://github.com/thomaspark/bootswatch/">Paper</a>,
@@ -302,6 +296,93 @@
     <script src="./assets/js/custom.js"></script>
     <script>
         hljs.initHighlightingOnLoad();
+
+        var microenv = "https%3A%2F%2Fcidarlab.github.io%2F3DuF-Paper-Designs%2FCell-Micro-Env-Chip.json"
+        var daridon = "https%3A%2F%2Fcidarlab.github.io%2F3DuF-Paper-Designs%2FDaridon-Single-Cell-Trap.json"
+        var signalling = "https%3A%2F%2Fcidarlab.github.io%2F3DuF-Paper-Designs%2FDynamic-Signalling-Chip.json"
+        var hydrogenation = "https%3A%2F%2Fcidarlab.github.io%2F3DuF-Paper-Designs%2FHyrdogenation-Chip.json"
+        var kinase = "https%3A%2F%2Fcidarlab.github.io%2F3DuF-Paper-Designs%2FKinase-RadioAssay-Chip.json"
+        var chemostat = "https%3A%2F%2Fcidarlab.github.io%2F3DuF-Paper-Designs%2FMicrochemostat.json"
+        var nozzle = "https%3A%2F%2Fcidarlab.github.io%2F3DuF-Paper-Designs%2FNozzle-Droplet-Generator.json"
+        var oligo = "https%3A%2F%2Fcidarlab.github.io%2F3DuF-Paper-Designs%2FOligo-Synthesizer.json"
+        var quake = "https%3A%2F%2Fcidarlab.github.io%2F3DuF-Paper-Designs%2FQuake-Droplet-Generator.json"
+
+        var antibiotic_resistance = "https%3A%2F%2Fraw.githubusercontent.com%2FCIDARLAB%2FMARS-Antibiotic-Resistance%2Fd69ba8146fcfa7264d4b57ac52d835549a5b7909%2FJSON-File%2FChip.json";
+        var cell_sorting = "https%3A%2F%2Fraw.githubusercontent.com%2FCIDARLAB%2FMARS-Cellular-Isolation%2F3cb20ce3a7b56c7bfda141778552f3ec13c45949%2FJSON-File%2FJSON.json";
+        var cell_ligation = "https%3A%2F%2Fraw.githubusercontent.com%2FCIDARLAB%2FMARS-Ligation%2F6721d5dd4992c1f86923d27a9805ee3d1d151360%2FJSON-File%2Fdevice.json";
+        var dna_digestion = "https%3A%2F%2Fraw.githubusercontent.com%2FCIDARLAB%2FMARS-DNA-Digestion%2F704707b096893ffa7da590bacee6d50995c14a79%2FJSON-File%2FJSON.json";
+        var cell_lysis = "https%3A%2F%2Fraw.githubusercontent.com%2FCIDARLAB%2FMARS-Cellular-Lysis%2F3fa773394f5ed627496cdcb320e7fd36e6a2a6dd%2FJSON-File%2FChip.json";
+        var flourescence = "https%3A%2F%2Fraw.githubusercontent.com%2FCIDARLAB%2FMARS-Fluorescence%2F1c93d7913f52dc1d7d9184cf6f976e28975b750e%2FJSON-File%2Fdevice.json";
+        var cell_transformation = "https%3A%2F%2Fraw.githubusercontent.com%2FCIDARLAB%2FMARS-Transformation%2F5b27923c5fd8740de1441832687148b7a28955d0%2FJSON-File%2FJSON.json";
+
+        function open3DuF(filelocation) {
+            console.log("File location: " + filelocation);
+            window.open("http://3duf.org?file=" + filelocation, "_blank");
+        }
+
+        function openAntibioticResistance() {
+            open3DuF(antibiotic_resistance);
+        }
+
+        function openCellSorting() {
+            open3DuF(cell_sorting);
+        }
+
+        function openCellLigation() {
+            open3DuF(cell_ligation);
+        }
+
+        function openDNADigestion() {
+            open3DuF(dna_digestion);
+        }
+
+        function openCellLysis() {
+            open3DuF(cell_lysis);
+        }
+
+        function openFlourescence() {
+            open3DuF(flourescence);
+        }
+
+        function openCellTransformation() {
+            open3DuF(cell_transformation);
+        }
+
+        function openMicroenv() {
+            open3DuF(microenv);
+        }
+
+        function openDaridon() {
+            open3DuF(daridon);
+        }
+
+        function openSignalling() {
+            open3DuF(signalling);
+        }
+
+        function openHydrogenation() {
+            open3DuF(hydrogenation);
+        }
+
+        function openKinase() {
+            open3DuF(kinase);
+        }
+
+        function openChemostat() {
+            open3DuF(chemostat);
+        }
+
+        function openNozzle() {
+            open3DuF(nozzle);
+        }
+
+        function openOligo() {
+            open3DuF(oligo);
+        }
+
+        function openQuake() {
+            open3DuF(quake);
+        }
     </script>
 </body>
 
