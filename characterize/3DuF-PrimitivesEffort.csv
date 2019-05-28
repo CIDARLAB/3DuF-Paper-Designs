@@ -1,0 +1,16 @@
+Type,Base Cost,Total Drawing Cost,#Parameters,Identifying Orthogonal Parameters,Setting Geometry Constraint,Setting Parameter Value,Total Constriant Cost,Nominal QDB
+Mixer,1,1,4,0,4,4,8,0.888888889
+Rotary Mixer,1,1,5,0,5,5,10,0.909090909
+Gradient Generator,1,1,5,0,5,5,10,0.909090909
+Valve,1,1,2,0,2,2,4,0.8
+Valve3D,1,1,5,0,5,5,10,0.909090909
+Transposer,1,1,5,0,5,5,10,0.909090909
+Mux,1,1,7,0,7,7,14,0.933333333
+Reaction Chamber,1,1,2,0,2,2,4,0.8
+Diamond Reaction Chamber,1,1,3,0,3,3,6,0.857142857
+Long Cell Trap,1,1,5,0,5,5,10,0.909090909
+Square Cell Trap,1,1,3,0,3,3,6,0.857142857
+Port,1,1,1,0,1,1,2,0.666666667
+Channel,1,1,1,0,1,1,2,0.666666667
+Tree,1,1,4,0,4,4,8,0.888888889
+DropletGen,1,1,6,0,6,6,12,0.923076923

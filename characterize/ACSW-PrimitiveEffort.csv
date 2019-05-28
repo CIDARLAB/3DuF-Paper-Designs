@@ -1,0 +1,11 @@
+Type,Base Cost,Procedural Scaling Formula* (Text),Value at X=8,Total Drawing Cost,#Parameters,Identifying Orthogonal Parameters,Setting Geometry Constraint,Setting Parameter Value,Total Constriant Cost,Nominal QDB
+Rotary Mixer,15,1,1,15,5,20,20,5,45,0.75
+Valve,2,1,1,2,2,1,8,2,11,0.846153846
+Valve3D,3,1,1,3,5,10,20,5,35,0.921052632
+Transposer,25,1,1,25,5,20,20,5,45,0.642857143
+Reaction Chamber,1,1,1,1,2,1,8,2,11,0.916666667
+Diamond Reaction Chamber,6,1,1,6,3,10,12,3,25,0.806451613
+Square Cell Trap,6,1,1,6,3,10,12,3,25,0.806451613
+Port,1,1,1,1,1,1,4,1,6,0.857142857
+Channel,1,1,1,1,1,1,4,1,6,0.857142857
+Droplet Gen,8,1,8,64,6,10,24,6,40,0.384615385
